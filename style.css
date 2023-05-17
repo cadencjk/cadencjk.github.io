@@ -7,8 +7,6 @@
 
 .video{
     width: 100%;
-    height: 100vh;
-    background-image: linear-gradient(rgba(12,3,51,0.3), rgba(12,3,51,0.3));
     position: relative;
     padding:  0 5%;
     display: flex;
@@ -46,7 +44,6 @@ nav ul li a {
 .back-video{
     position: absolute;
     right: 0;
-    bottom: 0;
     z-index: -1;
 }
 
@@ -63,4 +60,38 @@ nav ul li a {
         height: auto;
     }
 }
+
+.content{
+    width: 100%;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    padding: 0 5%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.header{
+    font-size: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    height: 100vh;
+    background-image: linear-gradient(rgba(12,3,51,0.3), rgba(12,3,51,0.3));
+    position: relative;
+}
+
+.navigator {
+   width: 100%;
+   position: relative;
+   padding:  0 5%;
+   display: flex;
+   align_items: center;
+   justify-content: center;
+   height: 15vh;
+   background-image: linear-gradient(rgba(100,100,100,100.0), rgba(100,100,100,100.0));
+}
+
 
