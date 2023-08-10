@@ -96,4 +96,7 @@ nav ul li a {
    background-image: linear-gradient(rgba(100,100,100,100.0), rgba(100,100,100,100.0));
 }
 
+.home_navigator a:hover {
+  color: #44e374;
+}
 
