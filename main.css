@@ -17,7 +17,7 @@ body{
     padding: 0;
     line-height: 1.5;
     font-weight: 400;
-    colour: white;
+    colour: black;
 
 }
 
@@ -120,7 +120,7 @@ h1{
    display: flex;
    align_items: center;
    justify-content: center;
-   height: 15vh;
+   height: 140px;
    background-image: linear-gradient(rgba(100,100,100,100.0), rgba(100,100,100,100.0));
 }
 
@@ -560,3 +560,40 @@ th,td {
     font-family: 'RobotoLight';
 }
 
+.form {
+    width: 50%;
+    border: 1px solid;
+    margin: auto;
+    padding: 10px;
+    border-radius: 6px;
+    border-color: #9c9a9a;
+    margin-top: 6em;
+}
+
+.comment {
+    resize: none;
+}
+
+
+.maps {
+  margin: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 6em;
+  margin-bottom: 230px;
+}
+
+.socials-item {
+  display: flex;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.socials {
+    margin-left: 80px;
+}
+
+.contact:hover {
+  color: red;
+}
