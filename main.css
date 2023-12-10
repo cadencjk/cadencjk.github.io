@@ -7,6 +7,7 @@
 *{
     margin: 0;
     padding: 0;
+    max-width: 100%;
     box-sizing: border-box;
     font-family: 'RobotoLight', sans-serif;
 }
@@ -25,7 +26,7 @@ body{
     padding: 2rem;
     padding-bottom: 400px;
     margin: 0 auto;
-    max-width: 800px;
+    overflow-x: hidden;
 }
 
 .top-section{
@@ -80,10 +81,12 @@ body{
     border-radius: 1rem;
     align-items: center;
     min-height: 300px;
+    max-width: 70%;
+    left: 15.1%
 }
 
 .section:nth-child(odd){
-    flex-direction: row-reverse;
+    flex-direction: row;
     transform: translateX(100%);
 }
 
@@ -186,7 +189,6 @@ a {
 .container {
 	width: 90%;
 	margin: 0 auto;
-	max-width: 1000px;
 }
 p {
 	font-size: 1.6rem;
@@ -591,7 +593,7 @@ th,td {
 }
 
 .socials {
-    margin-left: 80px;
+    margin-left: 40px;
 }
 
 .contact:hover {
